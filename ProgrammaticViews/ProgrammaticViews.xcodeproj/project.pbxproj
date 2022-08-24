@@ -99,12 +99,11 @@
 		0BDA133A28B6E2E00018A593 /* ProgrammaticViews */ = {
 			isa = PBXGroup;
 			children = (
-				0BDA133B28B6E2E00018A593 /* AppDelegate.swift */,
-				0BDA133D28B6E2E00018A593 /* SceneDelegate.swift */,
-				0BDA133F28B6E2E00018A593 /* ViewController.swift */,
-				0BDA134128B6E2E00018A593 /* Main.storyboard */,
+				0BDA136E28B6E3520018A593 /* Models */,
+				0BDA136C28B6E33D0018A593 /* Views */,
+				0BDA136D28B6E3450018A593 /* ViewModels */,
 				0BDA134428B6E2E60018A593 /* Assets.xcassets */,
-				0BDA134628B6E2E60018A593 /* LaunchScreen.storyboard */,
+				0BDA136B28B6E3210018A593 /* SupportFiles */,
 				0BDA134928B6E2E60018A593 /* Info.plist */,
 			);
 			path = ProgrammaticViews;
@@ -125,6 +124,39 @@
 				0BDA135E28B6E2E70018A593 /* ProgrammaticViewsUITestsLaunchTests.swift */,
 			);
 			path = ProgrammaticViewsUITests;
+			sourceTree = "<group>";
+		};
+		0BDA136B28B6E3210018A593 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0BDA133B28B6E2E00018A593 /* AppDelegate.swift */,
+				0BDA133D28B6E2E00018A593 /* SceneDelegate.swift */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		0BDA136C28B6E33D0018A593 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BDA133F28B6E2E00018A593 /* ViewController.swift */,
+				0BDA134128B6E2E00018A593 /* Main.storyboard */,
+				0BDA134628B6E2E60018A593 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0BDA136D28B6E3450018A593 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		0BDA136E28B6E3520018A593 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
